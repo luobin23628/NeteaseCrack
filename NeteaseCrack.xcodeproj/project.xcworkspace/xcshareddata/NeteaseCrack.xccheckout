@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0812D52B-6582-40F3-9947-5425841FBF01</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NeteaseCrack</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>38AF5729FAF280DF602B414DF4B13B86C7C4E3B8</key>
+		<string>https://github.com/luobin23628/NeteaseCrack.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NeteaseCrack.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>38AF5729FAF280DF602B414DF4B13B86C7C4E3B8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/luobin23628/NeteaseCrack.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>38AF5729FAF280DF602B414DF4B13B86C7C4E3B8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>38AF5729FAF280DF602B414DF4B13B86C7C4E3B8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NeteaseCrack</string>
+		</dict>
+	</array>
+</dict>
+</plist>

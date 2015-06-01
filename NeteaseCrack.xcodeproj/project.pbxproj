@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC26D40C1B19E50700EC0E5D /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = EC26D40B1B19E50700EC0E5D /* test.html */; };
+		EC26D40E1B19E80200EC0E5D /* js.txt in Resources */ = {isa = PBXBuildFile; fileRef = EC26D40D1B19E80200EC0E5D /* js.txt */; };
+		EC7253D51B1954F4005A328F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7253D41B1954F4005A328F /* main.m */; };
+		EC7253D81B1954F4005A328F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7253D71B1954F4005A328F /* AppDelegate.m */; };
+		EC7253DB1B1954F4005A328F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7253DA1B1954F4005A328F /* MasterViewController.m */; };
+		EC7253E31B1954F4005A328F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7253E21B1954F4005A328F /* Images.xcassets */; };
+		EC7253E61B1954F4005A328F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC7253E41B1954F4005A328F /* LaunchScreen.xib */; };
+		EC7253FE1B1955EF005A328F /* content_template.html in Resources */ = {isa = PBXBuildFile; fileRef = EC7253FB1B1955EF005A328F /* content_template.html */; };
+		EC7254001B1955EF005A328F /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = EC7253FC1B1955EF005A328F /* content.css */; };
+		EC7254021B1955EF005A328F /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = EC7253FD1B1955EF005A328F /* content.js */; };
+		EC72546F1B19591E005A328F /* NSArray_DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7254611B19591E005A328F /* NSArray_DeepMutableCopy.m */; };
+		EC7254711B19591E005A328F /* NSDictionary_DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7254631B19591E005A328F /* NSDictionary_DeepMutableCopy.m */; };
+		EC7254731B19591E005A328F /* MGTemplateEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7254651B19591E005A328F /* MGTemplateEngine.m */; };
+		EC7254751B19591E005A328F /* MGTemplateStandardFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7254691B19591E005A328F /* MGTemplateStandardFilters.m */; };
+		EC7254771B19591E005A328F /* MGTemplateStandardMarkers.m in Sources */ = {isa = PBXBuildFile; fileRef = EC72546B1B19591E005A328F /* MGTemplateStandardMarkers.m */; };
+		EC7254791B19591E005A328F /* ICUTemplateMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EC72546E1B19591E005A328F /* ICUTemplateMatcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC26D40B1B19E50700EC0E5D /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		EC26D40D1B19E80200EC0E5D /* js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = js.txt; sourceTree = "<group>"; };
+		EC7253CF1B1954F4005A328F /* NeteaseCrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeteaseCrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7253D31B1954F4005A328F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7253D41B1954F4005A328F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC7253D61B1954F4005A328F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC7253D71B1954F4005A328F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC7253D91B1954F4005A328F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		EC7253DA1B1954F4005A328F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		EC7253E21B1954F4005A328F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC7253E51B1954F4005A328F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC7253FB1B1955EF005A328F /* content_template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = content_template.html; sourceTree = "<group>"; };
+		EC7253FC1B1955EF005A328F /* content.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = content.css; sourceTree = "<group>"; };
+		EC7253FD1B1955EF005A328F /* content.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		EC72545F1B19591E005A328F /* DeepMutableCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepMutableCopy.h; sourceTree = "<group>"; };
+		EC7254601B19591E005A328F /* NSArray_DeepMutableCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArray_DeepMutableCopy.h; sourceTree = "<group>"; };
+		EC7254611B19591E005A328F /* NSArray_DeepMutableCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray_DeepMutableCopy.m; sourceTree = "<group>"; };
+		EC7254621B19591E005A328F /* NSDictionary_DeepMutableCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_DeepMutableCopy.h; sourceTree = "<group>"; };
+		EC7254631B19591E005A328F /* NSDictionary_DeepMutableCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_DeepMutableCopy.m; sourceTree = "<group>"; };
+		EC7254641B19591E005A328F /* MGTemplateEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateEngine.h; sourceTree = "<group>"; };
+		EC7254651B19591E005A328F /* MGTemplateEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTemplateEngine.m; sourceTree = "<group>"; };
+		EC7254661B19591E005A328F /* MGTemplateFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateFilter.h; sourceTree = "<group>"; };
+		EC7254671B19591E005A328F /* MGTemplateMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateMarker.h; sourceTree = "<group>"; };
+		EC7254681B19591E005A328F /* MGTemplateStandardFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateStandardFilters.h; sourceTree = "<group>"; };
+		EC7254691B19591E005A328F /* MGTemplateStandardFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTemplateStandardFilters.m; sourceTree = "<group>"; };
+		EC72546A1B19591E005A328F /* MGTemplateStandardMarkers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateStandardMarkers.h; sourceTree = "<group>"; };
+		EC72546B1B19591E005A328F /* MGTemplateStandardMarkers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTemplateStandardMarkers.m; sourceTree = "<group>"; };
+		EC72546D1B19591E005A328F /* ICUTemplateMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICUTemplateMatcher.h; sourceTree = "<group>"; };
+		EC72546E1B19591E005A328F /* ICUTemplateMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICUTemplateMatcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7253CC1B1954F4005A328F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC7253C61B1954F4005A328F = {
+			isa = PBXGroup;
+			children = (
+				EC7253D11B1954F4005A328F /* NeteaseCrack */,
+				EC7253D01B1954F4005A328F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC7253D01B1954F4005A328F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7253CF1B1954F4005A328F /* NeteaseCrack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC7253D11B1954F4005A328F /* NeteaseCrack */ = {
+			isa = PBXGroup;
+			children = (
+				EC72545D1B19591E005A328F /* MGTemplateEngine */,
+				EC7253FB1B1955EF005A328F /* content_template.html */,
+				EC7253FC1B1955EF005A328F /* content.css */,
+				EC7253FD1B1955EF005A328F /* content.js */,
+				EC26D40B1B19E50700EC0E5D /* test.html */,
+				EC26D40D1B19E80200EC0E5D /* js.txt */,
+				EC7253D61B1954F4005A328F /* AppDelegate.h */,
+				EC7253D71B1954F4005A328F /* AppDelegate.m */,
+				EC7253D91B1954F4005A328F /* MasterViewController.h */,
+				EC7253DA1B1954F4005A328F /* MasterViewController.m */,
+				EC7253E21B1954F4005A328F /* Images.xcassets */,
+				EC7253E41B1954F4005A328F /* LaunchScreen.xib */,
+				EC7253D21B1954F4005A328F /* Supporting Files */,
+			);
+			path = NeteaseCrack;
+			sourceTree = "<group>";
+		};
+		EC7253D21B1954F4005A328F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC7253D31B1954F4005A328F /* Info.plist */,
+				EC7253D41B1954F4005A328F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC72545D1B19591E005A328F /* MGTemplateEngine */ = {
+			isa = PBXGroup;
+			children = (
+				EC72545E1B19591E005A328F /* DeepMutableCopy */,
+				EC7254641B19591E005A328F /* MGTemplateEngine.h */,
+				EC7254651B19591E005A328F /* MGTemplateEngine.m */,
+				EC7254661B19591E005A328F /* MGTemplateFilter.h */,
+				EC7254671B19591E005A328F /* MGTemplateMarker.h */,
+				EC7254681B19591E005A328F /* MGTemplateStandardFilters.h */,
+				EC7254691B19591E005A328F /* MGTemplateStandardFilters.m */,
+				EC72546A1B19591E005A328F /* MGTemplateStandardMarkers.h */,
+				EC72546B1B19591E005A328F /* MGTemplateStandardMarkers.m */,
+				EC72546C1B19591E005A328F /* RegexKitLite */,
+			);
+			path = MGTemplateEngine;
+			sourceTree = "<group>";
+		};
+		EC72545E1B19591E005A328F /* DeepMutableCopy */ = {
+			isa = PBXGroup;
+			children = (
+				EC72545F1B19591E005A328F /* DeepMutableCopy.h */,
+				EC7254601B19591E005A328F /* NSArray_DeepMutableCopy.h */,
+				EC7254611B19591E005A328F /* NSArray_DeepMutableCopy.m */,
+				EC7254621B19591E005A328F /* NSDictionary_DeepMutableCopy.h */,
+				EC7254631B19591E005A328F /* NSDictionary_DeepMutableCopy.m */,
+			);
+			path = DeepMutableCopy;
+			sourceTree = "<group>";
+		};
+		EC72546C1B19591E005A328F /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				EC72546D1B19591E005A328F /* ICUTemplateMatcher.h */,
+				EC72546E1B19591E005A328F /* ICUTemplateMatcher.m */,
+			);
+			path = RegexKitLite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC7253CE1B1954F4005A328F /* NeteaseCrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7253F51B1954F4005A328F /* Build configuration list for PBXNativeTarget "NeteaseCrack" */;
+			buildPhases = (
+				EC7253CB1B1954F4005A328F /* Sources */,
+				EC7253CC1B1954F4005A328F /* Frameworks */,
+				EC7253CD1B1954F4005A328F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeteaseCrack;
+			productName = NeteaseCrack;
+			productReference = EC7253CF1B1954F4005A328F /* NeteaseCrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC7253C71B1954F4005A328F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = binluo;
+				TargetAttributes = {
+					EC7253CE1B1954F4005A328F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EC7253CA1B1954F4005A328F /* Build configuration list for PBXProject "NeteaseCrack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
+			mainGroup = EC7253C61B1954F4005A328F;
+			productRefGroup = EC7253D01B1954F4005A328F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7253CE1B1954F4005A328F /* NeteaseCrack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC7253CD1B1954F4005A328F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7254021B1955EF005A328F /* content.js in Resources */,
+				EC7253E61B1954F4005A328F /* LaunchScreen.xib in Resources */,
+				EC7253FE1B1955EF005A328F /* content_template.html in Resources */,
+				EC7254001B1955EF005A328F /* content.css in Resources */,
+				EC26D40C1B19E50700EC0E5D /* test.html in Resources */,
+				EC7253E31B1954F4005A328F /* Images.xcassets in Resources */,
+				EC26D40E1B19E80200EC0E5D /* js.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7253CB1B1954F4005A328F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7254751B19591E005A328F /* MGTemplateStandardFilters.m in Sources */,
+				EC7254711B19591E005A328F /* NSDictionary_DeepMutableCopy.m in Sources */,
+				EC7253D81B1954F4005A328F /* AppDelegate.m in Sources */,
+				EC7253DB1B1954F4005A328F /* MasterViewController.m in Sources */,
+				EC7254791B19591E005A328F /* ICUTemplateMatcher.m in Sources */,
+				EC7254771B19591E005A328F /* MGTemplateStandardMarkers.m in Sources */,
+				EC7253D51B1954F4005A328F /* main.m in Sources */,
+				EC7254731B19591E005A328F /* MGTemplateEngine.m in Sources */,
+				EC72546F1B19591E005A328F /* NSArray_DeepMutableCopy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC7253E41B1954F4005A328F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7253E51B1954F4005A328F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC7253F31B1954F4005A328F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC7253F41B1954F4005A328F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC7253F61B1954F4005A328F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeteaseCrack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC7253F71B1954F4005A328F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeteaseCrack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7253CA1B1954F4005A328F /* Build configuration list for PBXProject "NeteaseCrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7253F31B1954F4005A328F /* Debug */,
+				EC7253F41B1954F4005A328F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7253F51B1954F4005A328F /* Build configuration list for PBXNativeTarget "NeteaseCrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7253F61B1954F4005A328F /* Debug */,
+				EC7253F71B1954F4005A328F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC7253C71B1954F4005A328F /* Project object */;
+}

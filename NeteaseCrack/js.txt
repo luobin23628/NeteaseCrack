@@ -1,0 +1,8 @@
+May 30 20:42:05 Liangs-iPhone NewsBoard[519] <Warning>: -[<UIWebView: 0x168b3fd0> stringByEvaluatingJavaScriptFromString:getImageRect();]
+
+
+
+May 30 20:42:05 Liangs-iPhone NewsBoard[519] <Warning>: -[<UIWebView: 0x168b3fd0> stringByEvaluatingJavaScriptFromString:addCommentSectionHeader();buildFloors([{"subname":"网易辽宁盘锦手机网友 2015-05-29","name":"火星网友","mars":"true","vote":"3422顶","icon":"","bigv":false,"vip":false,"body":"个人不渴望，不要被代表～"},{"subname":"网易上海手机网友 2015-05-28","name":"火星网友","mars":"true","vote":"3420顶","icon":"","bigv":false,"vip":false,"body":"不好意思，我不渴望"},{"subname":"网易河北邯郸手机网友 2015-05-28","name":"火星网友","mars":"true","vote":"3378顶","icon":"","bigv":false,"vip":false,"body":"请问有什么资格申办！别拿老百姓的钱！乱花了蔡总"}]);]
+
+
+May 30 20:42:05 Liangs-iPhone NewsBoard[519] <Warning>: -[<UIWebView: 0x168b3fd0> stringByEvaluatingJavaScriptFromString:document.getElementById('image_0').innerHTML="<div class='plus'></div><a class='photo_box' style='width:600px ; height:400px'  href='javascript:void(0)' onclick=extend_image('http://s.cimg.163.com/i/img3.cache.netease.com/photo/0005/2015-03-16/AKRNH91T0B6P0005.550x.0.jpg.640x20000.75.auto.jpg',this)><img src='/var/mobile/Applications/F3F37022-F66C-49FD-BD20-9E0B3F44D9A9/Library/Caches/com.hackemist.SDWebImageCache.default/202e46b92da1854be7c0dcf564ffe855' width='600px' height='400px' style='margin-left:0px' onload='image_loaded(this)'/></a>"]
